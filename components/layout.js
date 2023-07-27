@@ -6,9 +6,7 @@ export default function Layout ({ children }) {
   return (
     <>
       <Header />
-      <main>
-        <Hero />
-      </main>
+      <main>{children}</main>
       <Footer />
     </>
   )
