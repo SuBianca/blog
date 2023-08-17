@@ -1,19 +1,12 @@
 import Hero from 'components/hero'
 
-export default function Home () {
+const Home = () => {
   return (
     <Hero
       title='CUBE'
       subtitle='アウトプットしていくサイト'
+      imageOn
     />
   )
 }
-
-// const Home = () => {
-//   return (
-//     <Layout>
-//       <Hero />
-//      </Layout>
-//   )
-// }
-// export default Home
+export default Home

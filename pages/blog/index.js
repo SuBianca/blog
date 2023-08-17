@@ -1,6 +1,6 @@
 import Hero from 'components/hero'
 
-export default function Blog () {
+const Blog = () => {
   return (
     <Hero
       title='Blog'
@@ -8,3 +8,4 @@ export default function Blog () {
     />
   )
 }
+export default Blog
